@@ -1,0 +1,245 @@
+.jumbotron{
+
+  /* 30vh means 60% of the viewport height excluding the height of the content */
+  padding: 20vh 15%;
+  background-color:gray;
+background-image:url("../images/Mainlandingpagehires.jpg");
+/* Photo by Daniel Apodaca on Unsplash */
+
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+margin-bottom: 100px;
+}
+
+.display-1{
+font-size: 4rem;
+color:#FC6705;
+font-family:'Archivo Black', sans-serif;
+}
+
+.display-4{
+  font-size: 2rem;
+  color:#FFFFFF;
+  font-family:'Archivo',sans-serif;
+
+}
+
+
+.bg-nav{background-color:#090909;}
+
+.navbar-brand{color:orange;
+}
+
+h1{margin: .5rem 0 2rem 0;
+  font-size: 0.05rem;
+  color:#FFFFFF;
+  font-family:'Archivo',sans-serif;
+}
+
+h2{font-size: 2rem;
+  color:#FFFFFF;
+  font-family:'Archivo',sans-serif;
+}
+
+p{  font-size: 1rem;
+  color:#FFFFFF;
+  font-family:'Archivo-regular',sans-serif
+
+}
+
+
+.col-md-4 img{padding:2rem 0 3rem 0;
+}
+
+
+
+
+
+
+.row5{background-color:#090909;
+
+}
+.row{margin:5rem 0rem;
+}
+
+.row .row {margin:0rem;
+}
+
+
+
+.btn-orange{
+  background-color: #FC6705;
+  color:#ffffff;
+  font-style: 'archivo bold', sans-serif
+  font-size:1rem;
+}
+
+
+
+navbar-toggler{border:1px solid white;
+}
+
+
+.nav-item a{color:white;font-size:2rem;
+
+}
+
+
+.btn-cta{
+  font-size: .8rem;
+}
+
+
+.carousel{
+  width:100%;
+}
+.testimonials{
+
+  /* 30vh means 60% of the viewport height excluding the height of the content */
+  padding: 5rem 0;
+  background-color:#090909;
+
+margin-bottom: 100px;
+}
+
+
+.img-testimonial .img-fluid {border-radius: 1rem;
+
+}
+
+.text-testimonial{padding:3rem 0;
+}
+
+blockquote p{font-size:1.5rem;
+color: #222222;
+font-family: 'lato', sans-serif;
+}
+
+.blockquote-footer{font-size:1.2rem;
+color: orange;
+font-family: 'lato', sans-serif;
+}
+
+blockquote footer cite{font-size:1rem;
+color: red;
+font-family: 'lato', sans-serif;
+font-style: italic;
+font-weight: 100;
+}
+
+input{margin-bottom:1.5rem;}
+
+
+.btn-mike{background-color:orange;
+  color:white;
+  padding:.5rem 2rem;
+  font-size: 1.8rem;
+border-radius: 1rem;
+}
+
+
+
+/* footer styles */
+
+
+
+
+.footer{
+
+padding: 1rem  0rem;
+background-color:#222222;
+
+
+
+}
+
+.footer a:hover i{
+  color:blue;
+  background-color:white;
+}
+
+
+.footer a:visited i{
+  color:yellow;
+  background-color:black;
+}
+
+
+.footer a:active i{
+  color:orange;
+  background-color:green;
+}
+
+
+.icon2{width:100px;height:100px
+
+}
+
+
+
+
+
+
+.fab {
+    font-size: 25px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 6.5px 2.5px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.hi, h1{font-size: 1.5rem;
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .display-1{
+  font-size: 4rem;
+}
+
+.btn-cta{
+  font-size: 1rem;
+}
+
+
+.hi, h1{font-size: 2.5rem;
+
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+.display-1{
+font-size: 6rem;
+}
+
+.btn-cta{
+font-size: 2rem;
+}
+
+h1{font-size: 1.5rem;
+
+}
+
+
+
+
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
