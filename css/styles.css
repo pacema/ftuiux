@@ -28,7 +28,7 @@ navbar-toggler{border:1px solid white;
 .jumbotron{
 
   /* 30vh means 60% of the viewport height excluding the height of the content */
-  padding: 20vh 15%;
+  padding: 10rem 0; padding-top:15%;padding-bottom: 15%;
   background-color:gray;
 
 /* Photo by Daniel Apodaca on Unsplash */
@@ -36,7 +36,7 @@ navbar-toggler{border:1px solid white;
 margin-bottom: 0rem;
 
 
-background-image:url("../images/grad-image.png");
+background-image:url("../images/danielpodacahighresimage.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -64,11 +64,10 @@ font-family:'Archivo Black', sans-serif;
   background-color: #FC6705;
   color:#ffffff;
   font-style: 'archivo bold', sans-serif
-  font-size:1rem;
+  font-size:0.5rem;
 }
 
-.btn-cta{
-  font-size: .8rem;
+.btn-ctn{font-size:2rem;
 }
 
 
@@ -223,7 +222,7 @@ background-color:#222222;
 }
 
 .btn-cta{
-  font-size: 1rem;
+  font-size: 1.0rem;
 }
 .hi, h1{font-size: 2.5rem;
 }
@@ -239,7 +238,7 @@ font-size: 6rem;
 }
 
 .btn-cta{
-font-size: 2rem;
+font-size: 1.5rem;
 }
 
 
@@ -254,7 +253,14 @@ font-size: 2rem;
 @media (min-width: 992px) {
 }
 
+.btn-cta{font-size:2.0rem;
+}
+
+
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+.btn-cta{font-size:2.0rem;
 }
