@@ -44,15 +44,17 @@ background-position: center center;
 }
 
 .display-1{
-font-size: 4rem;
+font-size: 10rem;
 color:#FC6705;
-font-family:'Archivo Black', sans-serif;
+font-family:'Archivo black', sans-serif; font-weight:400;
+
 }
 
 .display-4{
-  font-size: 2rem;
+  font-size: 3rem;
   color:#FFFFFF;
-  font-family:'Archivo',sans-serif;
+  font-family:'Archivo bold',sans-serif;
+  font-weight:400;
 
 }
 
@@ -71,11 +73,24 @@ font-family:'Archivo Black', sans-serif;
 
 }
 
+
+.btn-cta:hover {
+    background-color:#5f5f5f;
+    color: white;
+}
+
+
+
+
+
+
+
+
 /* ///////////////////// */
 
 
 h1{margin: .5rem 0rem 2rem 0;
-  font-size: 0.05rem;
+  font-size: 3rem;
   color:#FFFFFF;
   font-family:'Archivo',sans-serif
   ; padding-bottom:2rem;
@@ -98,8 +113,36 @@ p{  font-size: 1rem;
 
 }
 
-.col-md-4 img{padding:2rem 0 3rem 0;
+.col-md-4 img{
+
+
 }
+
+.image-bodyinput img {
+  border-radius: 1rem;
+  /* height: 280px; */
+  max-height: 280px;
+  width:440px;
+}
+.image-cyclist img{
+  border-radius: 1rem;
+  max-height: 280px;
+  width: 440px;
+}
+.image-graph img{
+  border-radius: 1rem;
+  height: 280px;
+  width: 440px;
+
+}
+
+
+
+
+
+
+
+
 
 .row5{background-color:#090909;
 
@@ -126,9 +169,13 @@ p{  font-size: 1rem;
 }
 
 
-.img-testimonial .img-fluid {border-radius: 1rem;
+
+.img-testimonial .img-fluid {border-radius: 1rem; max-height:300px;border-style: solid;border-color: white;
 
 }
+
+
+
 
 .text-testimonial{padding:3rem 0;
 }
@@ -153,7 +200,7 @@ font-weight: 100;
 input{margin-bottom:1.5rem;}
 
 
-.btn-mike{background-color:#FC6705;
+.btn-footer{background-color:#FC6705;
   color:white;
   padding:.5rem 2rem;
   font-size: 1.8rem;
@@ -161,15 +208,29 @@ border-radius: 1rem;
 }
 
 
-/* /////////////////FOOTER/////////// */
-/* footer styles */
+.btn-footer:hover {
+    background-color:#5f5f5f;
+    color: white;
+}
 
+
+
+
+
+
+/* NEWSLETTER */
 
 .row8{color:090909; font-style:'archivo bold',sans-serif;
 }
 
 .row8 .col-md-3{color:090909;
 }
+
+
+
+/* /////////////////FOOTER/////////// */
+/* footer styles */
+
 
 .footer{
 
@@ -179,7 +240,7 @@ background-color:#222222;
 }
 
 .footer a:hover i{
-  color:blue;
+  color:black;
   background-color:white;
 }
 
